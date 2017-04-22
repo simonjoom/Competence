@@ -17,33 +17,32 @@ Je décris ici mes compétences de programmation ReactJS
 Voici le lien du boilerplate utilisé comme base:
 https://github.com/kriasoft/react-static-boilerplate
 
-This is a starter boilerplate app   
-**fontawesome + mobx + material-ui + bootstrap** + https://github.com/kriasoft/react-app
 
-* [React](https://github.com/facebook/react)
-* [Babel](http://babeljs.io) for ES6 and ES7 magic
-* [Webpackv2](http://webpack.github.io) for bundling
-* [ProxyPass with nginx](http://nginx.org/en/docs/http/ngx_http_proxy_module.html) Nginx manage javascript-cors and help us to develop under http://www.mysite.com (port 80)
-* [Express](http://expressjs.com)
-* [Feathers](https://github.com/feathersjs) Api with feathers
-* [Feathers-stripe](https://github.com/feathersjs/feathers-stripe) Api payment call with stripe.
-* [Webpack code splitting](https://webpack.github.io/docs/code-splitting.html) Code splitted depending language and routes with require.ensure  
-* [Webpack Dev Middleware](http://webpack.github.io/docs/webpack-dev-middleware.html)
-* [Webpack Hot Middleware](https://github.com/glenjamin/webpack-hot-middleware)
-* [Mobx](https://mobxjs.github.io/mobx/best/devtools.html) Better than redux in my opinion to maintain code  
-* [mobx Dev Tools](https://github.com/mobxjs/mobx-react-devtools) for next generation DX (developer experience). 
-* [ESLint](http://eslint.org) to maintain a consistent code style 
-* [material-ui](https://github.com/callemall/material-ui/tree/next/src) material-ui
-* [mobx-react-form](https://github.com/foxhound87/mobx-react-form) mobx reac form validation AJV 
-* [style-loader](https://github.com/webpack/style-loader), 
-* [MAP](https://github.com/mapbox/mapbox.js), 
-* [less-loader](https://github.com/webpack/less-loader) to allow import of stylesheets in plain css, sass and less,
-* [async-js](https://www.npmjs.com/package/async-js) async to load javascript dynamically
-* [prerender](https://github.com/prerender/prerender) CEO Prerender
-* [fontawesome](http://fontawesome.io)  font awesome
-* [CSS](http://basscss.com) Lightning Fast Modular CSS with No Side Effects
- 
-Site web details des technologies :
+
+##Compétences:
+
+Le nouveau site-web sous react utilisant prerender m'a permis de remonter sur les premières page sur le classement google avec les mots clefs: 'ski school courchevel'  
+Excellent connaissance en **CEO** gestion balise, title, description ... keywords in page.
+
+**Nginx** last version 1.12 sert le code et le rewriting en première couche, apache est en 2éme couche pour le serveur PHP/Mysql : un proxy fait tourner mon ancien site-web en PHP avec apache; nginx gère mon nouveau site-web servi par nodejs.  
+Le site web est hébergé sur un kimsufi tournant sur le dernier debian, j'administre moi même et sécurise mon serveur debian. (firewall, bind9, mongodb, courrier etc...) 
+
+Mon ancien site-web utilise **PHP7 / MySQL** mais je ne continue plus son développement, il me sert juste à garder mes anciennes url et ainsi garder mon page-rank.   
+J'utilise le software **Webstorm** pour le développement.
+
+J'ai aussi des connaissances en react-native car j'ai commencé le développement de l'application. 
+
+Software utilisé pour le développement: 
+* Mac OS
+* Webstorm
+* Sourcetree
+* Robomongo
+
+Ancien utilisateur windows, je ne travaille plus que sur mac Os;  
+j'ai aussi de très bonne connaissance en PHP mais cela me semble obsolète par rapport à React et NodeJS.  
+Toutes les connaissances ReactJS énoncées ont été apprise en seulement un an d'apprentissage et de développement.
+
+Voici ci-dessous la description des technologies utilisées:
 
 ReactJS/NodeJS
 
@@ -67,20 +66,40 @@ ReactJS/NodeJS
 -> https://www.skiscool.fr/?_escaped_fragment_=
 
 
-Le nouveau site-web sous react utilisant prerender m'a permis de remonter sur les premières page sur le classement google avec les mots clefs: 'ski school courchevel'
-Excellent connaissance en CEO gestion balise,title,description ... keywords in page.
+This is a starter boilerplate app   
+**fontawesome + mobx + material-ui** 
 
-NGinx last version 1.12 sert le code et le rewriting en première couche, apache est en 2éme couche pour le serveur PHP/Mysql/ : j'utilise un proxy pour faire tourner mon ancien site-web en PHP avec apache; nginx gère mon nouveau site-web servi par nodejs.
-Le site web est hébergé sur un kimsufi tournant sur le dernier debian, j'administre moi même et sécurise mon serveur debian. (firewall, bind9, mongodb, courrier etc...) 
+### Techno boilerplate app Simon:
+* [React](https://github.com/facebook/react)
+* [Babel](http://babeljs.io) for ES6 and ES7 magic
+* [Webpackv2](http://webpack.github.io) for bundling
+* [ProxyPass with nginx](http://nginx.org/en/docs/http/ngx_http_proxy_module.html) Nginx manage javascript-cors and help us to develop under http://www.mysite.com (port 80)
+* [Express](http://expressjs.com)
+* [Feathers](https://github.com/feathersjs) Api with feathers
+* [Feathers-stripe](https://github.com/feathersjs/feathers-stripe) Api payment call with stripe.
+* [Webpack code splitting](https://webpack.github.io/docs/code-splitting.html) Code splitted depending language and routes with require.ensure  
+* [Webpack Dev Middleware](http://webpack.github.io/docs/webpack-dev-middleware.html)
+* [Webpack Hot Middleware](https://github.com/glenjamin/webpack-hot-middleware)
+* [Mobx](https://mobxjs.github.io/mobx/best/devtools.html) Better than redux in my opinion to maintain code  
+* [mobx Dev Tools](https://github.com/mobxjs/mobx-react-devtools) for next generation DX (developer experience). 
+* [ESLint](http://eslint.org) to maintain a consistent code style 
+* [material-ui](https://github.com/callemall/material-ui/tree/next/src) material-ui source code
+* [mobx-react-form](https://github.com/foxhound87/mobx-react-form) mobx reac form validation AJV 
+* [style-loader](https://github.com/webpack/style-loader), 
+* [MAP](https://github.com/mapbox/mapbox.js), Mapbox pour le plan des piste
+* [less-loader](https://github.com/webpack/less-loader) to allow import of stylesheets in plain css, sass and less,
+* [async-js](https://www.npmjs.com/package/async-js) async to load javascript dynamically
+* [prerender](https://github.com/prerender/prerender) CEO Prerender
+* [fontawesome](http://fontawesome.io)  font awesome
+* [CSS](http://basscss.com) BASSCSS Lightning Fast Modular CSS with No Side Effects
 
-Mon ancien site-web utilise PHP7 / MySQL mais je ne continue plus son développement, il me sert juste à garder mes anciennes url et ainsi garder mon page-rank. 
-J'utilise le software Webstorm pour le développement.
 
-J'ai aussi des connaissances en react-native car j'ai commencé le développement de l'application.
+### Code optimization:
+* [Optimization react-lite](https://github.com/Lucifier129/react-lite) React-lite 60% lighter than react.
+* [Optimization Jquery](https://github.com/madrobby/zepto)  minimalist JavaScript library jquery
 
 
-Ancien utilisateur windows, je ne travaille plus que sur mac Os;
-j'ai aussi de très bonne connaissance en PHP mais cela me semble obsolète par rapport à React et NodeJS.
-Toutes les connaissances ReactJS énoncées ont été apprise en seulement un an d'apprentissage et de développement.
+
+
 
 
