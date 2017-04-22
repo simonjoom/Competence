@@ -64,6 +64,7 @@ Mon ancien site-web utilise **PHP7 / MySQL** cependant je ne continue plus son 
   
 ✓ Maitrise de **Javascript/ES6 , HTML/HTML5.0**.      
 ✓ Maitrise de **JQuery**.  
+✓ Administration du Système Linux (Debian).  
 ✓ Maitrise de **Webstorm** pour le développement.  
 ✓ Maitrise de **Feathers** pour les Api comme la gestion du payment en ligne et du systeme d'authentification.  (http://feathersjs.com)  
 ✓ Maitrise **Photoshop, Illustrator, Gimp** .. et autres outils **PAO**  
