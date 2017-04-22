@@ -53,12 +53,14 @@ Mon ancien site-web utilise **PHP7 / MySQL** cependant je ne continue plus son 
 * Photoshop
 
 #### Connaissances: 
-
-✓ **Webstorm** pour le développement.  
-✓ **Feathers** pour les Api comme la gestion du payment en ligne et du systeme d'authentification.  (http://feathersjs.com)  
+  
+✓ Maitrise de **Javascript/ES6 , HTML/HTML5.0**.      
+✓ Maitrise de **JQuery**.  
+✓ Maitrise de **Webstorm** pour le développement.  
+✓ Maitrise de **Feathers** pour les Api comme la gestion du payment en ligne et du systeme d'authentification.  (http://feathersjs.com)  
 ✓ Maitrise **Photoshop, Illustrator, Gimp** .. et autres outils **PAO**  
 ✓ Maitrise de **Markdown** et **Sourcetree** pour la gestion de projet.  
-✓ Maitrise de **FileZilla**.    
+✓ Maitrise de **FileZilla**.   
 ✓ Connaissance de **Mongodb**  
 ✓ Connaissance de **React-native**  développement de l'application mobile.  
 ✓ Utilisation de **CSS3** comme les transitions.  
