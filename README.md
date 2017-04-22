@@ -3,7 +3,14 @@
 
 **Curriculum**   
 Je décris ici mes compétences de programmation ReactJS utilisé dans le développement de [skiscool.com](https://www.skiscool.fr)
+     
+https://www.skiscool.fr pour le français  
+https://www.ski-courchevel.deals pour l'anglais   
+https://ru.skiscool.com pour le russe   
+https://pt.skiscool.com pour le portugais  
 
+J'utilise notamment https avec différents certificats pour chaque domaine.
+   
 Ici la liste des dépendances du projet:
 
 -> [![Dependency Status](https://david-dm.org/simonjoom/Competence.svg?style=flat-square)](https://david-dm.org/simonjoom/Competence)
@@ -18,6 +25,7 @@ Ici la liste des dépendances du projet:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ce projet m'a permis d'apprendre beaucoup de ReactJS et des API de feathers.  
 
  Le site est configuré multi-langue et entièrement real-time (feathers) et responsible.  
+[Generation des certificats](https://community.letsencrypt.org) grâce à  letsencrypts.   
 Le design utilise material-ui.  
 La gestion de la langue est interne avec un router personnalisé, chaque langue correspond à un domaine ou sous domaine pour un meilleur CEO.
 
@@ -93,7 +101,7 @@ Voici ci-dessous la description des technologies React utilisées:
 ✓ Gestion online payment with feather and stripe   
 ✓ Last web pack 2  
 ✓ Code-splitting and HMR (Hot Module Replacement)   
-✓ Https using different certificate for each domain/subdomain  
+✓ Https using different certificate for each domain/subdomain    
 ✓ Gestion state with mobx (a mon sens bien plus efficace et plus facile à maintenir que redux)  
 ✓ Material-ui with:  https://github.com/callemall/material-ui/tree/next/src  
 ✓ Optimisation du code with react-lite et une librairie minimal jQuery zepto.js  
@@ -131,7 +139,8 @@ This is a starter boilerplate app
 * [prerender](https://github.com/prerender/prerender) CEO Prerender
 * [fontawesome](http://fontawesome.io)  font awesome
 * [CSS](http://basscss.com) BASSCSS Lightning Fast Modular CSS with No Side Effects
-* [markdown-it](https://www.npmjs.com/package/markdown-it) Mardown to display view
+* [markdown-it](https://www.npmjs.com/package/markdown-it) Mardown to display view  
+* [generation certificate](https://community.letsencrypt.org) avec letsencrypt  
 
 
 ### Code optimization:
