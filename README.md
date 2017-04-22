@@ -27,7 +27,7 @@ La gestion de la langue est interne avec un router personnalisé, chaque langue 
       https://pt.skiscool.com pour le portugais  
 
 
- J'ai d'abords commencé par un boilerplate isomorphique dans le soucis de référencement, cependant le projet devenant trop complexe a mettre en oeuvre ; j'ai alors opté pour un projet plus simple utilisant un stand-alone web applications (SPA) couplé a prerender-io pour le référencement.
+ J'ai d'abord commencé par un boilerplate isomorphique dans le soucis de référencement, cependant le projet devenant trop complexe à mettre en oeuvre ; j'ai alors opté pour un projet plus simple utilisant un stand-alone web applications (SPA) couplé à prerender-io pour le référencement.
 
 Voici le lien du boilerplate utilisé comme base:
 https://github.com/kriasoft/react-static-boilerplate
