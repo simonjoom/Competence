@@ -4,47 +4,73 @@
 **Curriculum**   
 Je décris ici mes compétences de programmation ReactJS utilisé dans le développement de [skiscool.com](https://www.skiscool.fr)
 
+Ici la liste des dépendances du projet:
 
-[![Dependency Status](https://david-dm.org/simonjoom/Competence.svg?style=flat-square)](https://david-dm.org/simonjoom/Competence)
+-> [![Dependency Status](https://david-dm.org/simonjoom/Competence.svg?style=flat-square)](https://david-dm.org/simonjoom/Competence)
 [![devDependency Status](https://david-dm.org/simonjoom/Competence/dev-status.svg?style=flat-square)](https://david-dm.org/simonjoom/Competence#info=devDependencies)
 
 
 ---------------------------------------------------
 
-## About Simon
+## Au sujet du projet
+
+J'ai développé le site-web de mon école de ski avec la collaboration d'un programmeur,  
+Ce projet m'a permis d'apprendre beaucoup de ReactJS et des API de feathers.  
+
+Le site est configuré multi-langue et entièrement real-time (feathers) et responsible.  
+Le design utilise material-ui.  
+La gestion de la langue est interne avec un router personnalisé, chaque langue correspond à un domaine ou sous domaine pour un meilleur CEO.
+
+      https://www.skiscool.fr pour le français  
+      https://www.ski-courchevel.deals pour l'anglais   
+      https://ru.skiscool.com pour le russe   
+      https://pt.skiscool.com pour le portugais  
+
+
   J'ai d'abords commencé par un boilerplate isomorphique dans le soucis de référencement, cependant le projet devenant trop complexe a mettre en oeuvre ; j'ai alors opté pour un projet plus simple utilisant un stand-alone web applications (SPA) couplé a prerender-io pour le référencement.
 
 Voici le lien du boilerplate utilisé comme base:
 https://github.com/kriasoft/react-static-boilerplate
 
 
+## Serveur:
 
-## Compétences:
-
-Le nouveau site-web sous react utilisant prerender m'a permis de remonter sur les premières page sur le classement google avec les mots clefs: 'ski school courchevel'  
-Excellent connaissance en **CEO** gestion balise, title, description ... keywords in page.
+Le site web est hébergé sur un kimsufi tournant sur le dernier debian, j'administre moi même et sécurise mon serveur debian.  
+(firewall, bind9, mongodb, courrier etc...)   
 
 **Nginx** last version 1.12 sert le code et le rewriting en première couche, apache est en 2éme couche pour le serveur PHP/Mysql : un proxy fait tourner mon ancien site-web en PHP avec apache; nginx gère mon nouveau site-web servi par nodejs.  
-Le site web est hébergé sur un kimsufi tournant sur le dernier debian, j'administre moi même et sécurise mon serveur debian. (firewall, bind9, mongodb, courrier etc...) 
 
 Mon ancien site-web utilise **PHP7 / MySQL** mais je ne continue plus son développement, il me sert juste à garder mes anciennes url et ainsi garder mon page-rank.   
-J'utilise le software **Webstorm** pour le développement.
 
-J'ai aussi des connaissances en react-native car j'ai commencé le développement de l'application. 
 
-#### Software utilisé pour le développement: 
+#### Softwares utilisé pour le développement: 
 * Mac OS
 * Webstorm
 * Sourcetree
 * Robomongo
 
-Ancien utilisateur windows, je ne travaille plus que sur mac Os;  
-j'ai aussi de très bonne connaissance en PHP mais cela me semble obsolète par rapport à React et NodeJS.  
-Toutes les connaissances ReactJS énoncées ont été apprise en seulement un an d'apprentissage et de développement.
+#### Connaissances: 
 
-Voici ci-dessous la description des technologies utilisées:
+J'utilise le software **Webstorm** pour le développement.
+
+J'ai aussi des connaissances en **react-native** car j'ai commencé le développement de l'application mobile. 
+
+Maitrise de markdown.  
+Ancien utilisateur windows, je ne travaille plus que sur mac Os;  
+J'ai aussi de très bonne connaissance en PHP mais cela me semble obsolète par rapport à React et NodeJS.  
+Toutes les connaissances ReactJS énoncées en bas de page ont été apprise en seulement un an d'apprentissage et de développement.
+
+
+#### Efficacité du boilerplate:
+Le nouveau site-web sous react utilisant prerender m'a permis de remonter sur les premières page sur le classement google avec les mots clefs: 'ski school courchevel'  
+Excellent connaissance en **CEO** gestion balise, title, description ... keywords in page.
+
+
+
 
 #### ReactJS/NodeJS
+
+Voici ci-dessous la description des technologies React utilisées:
 
 ✓ Babel with babel-runtime , external polyfill for old browsers.  
 ✓ Deep knowledge using "Promise" and async  
@@ -56,20 +82,21 @@ Voici ci-dessous la description des technologies utilisées:
 ✓ Last web pack 2  
 ✓ Code-splitting and HMR (Hot Module Replacement)   
 ✓ Https using different certificate for each domain/subdomain  
-✓ Gestion state with mobx (a mon sens bien plus efficace et plus facile que redux)  
+✓ Gestion state with mobx (a mon sens bien plus efficace et plus facile à maintenir que redux)  
 ✓ Material-ui with:  https://github.com/callemall/material-ui/tree/next/src  
 ✓ Optimisation du code with react-lite et une librairie minimal jQuery zepto.js  
 ✓ Création de chart with google-chart  
-✓ Géolocalisation , Map with a mod of mapbox.js
-✓ Css with basscss with font-awesome
-✓ Using Prerender-io to generate page for CEO  (_escaped_fragment_) see below:
+✓ Géolocalisation , Map with a mod of mapbox.js  
+✓ Css with basscss with font-awesome  
+✓ Using Prerender-io to generate page for CEO   
+(_escaped_fragment_) see below:  
 -> https://www.skiscool.fr/?_escaped_fragment_=
 
 
+### Techno boilerplate app Simon:
 This is a starter boilerplate app   
 **fontawesome + mobx + material-ui** 
 
-### Techno boilerplate app Simon:
 * [React](https://github.com/facebook/react)
 * [Babel](http://babeljs.io) for ES6 and ES7 magic
 * [Webpackv2](http://webpack.github.io) for bundling
@@ -92,6 +119,7 @@ This is a starter boilerplate app
 * [prerender](https://github.com/prerender/prerender) CEO Prerender
 * [fontawesome](http://fontawesome.io)  font awesome
 * [CSS](http://basscss.com) BASSCSS Lightning Fast Modular CSS with No Side Effects
+* [markdown-it](https://www.npmjs.com/package/markdown-it) Mardown to display view
 
 
 ### Code optimization:
@@ -99,7 +127,6 @@ This is a starter boilerplate app
 * [Optimization Jquery](https://github.com/madrobby/zepto)  minimalist JavaScript library jquery
 
 
-
-
+ ![logo skiscool courchevel](https://skiscool.com/dist/icons/logo.png){.block .mx-auto .rounded} 
 
 
