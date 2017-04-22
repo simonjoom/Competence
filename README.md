@@ -2,11 +2,11 @@
 
 
 **Curriculum**   
-Je décris ici mes compétences de programmation ReactJS
+Je décris ici mes compétences de programmation ReactJS utilisé dans le développement de [skiscool.com](https://www.skiscool.fr)
 
 
-[![Dependency Status](https://david-dm.org/simonjoom/react-app-mobx-ultimateversion.svg?style=flat-square)](https://david-dm.org/simonjoom/react-app-mobx-ultimateversion)
-[![devDependency Status](https://david-dm.org/simonjoom/react-app-mobx-ultimateversion/dev-status.svg?style=flat-square)](https://david-dm.org/simonjoom/react-app-mobx-ultimateversion#info=devDependencies)
+[![Dependency Status](https://david-dm.org/simonjoom/Competence.svg?style=flat-square)](https://david-dm.org/simonjoom/Competence)
+[![devDependency Status](https://david-dm.org/simonjoom/Competence/dev-status.svg?style=flat-square)](https://david-dm.org/simonjoom/Competence#info=devDependencies)
 
 
 ---------------------------------------------------
@@ -19,7 +19,7 @@ https://github.com/kriasoft/react-static-boilerplate
 
 
 
-##Compétences:
+## Compétences:
 
 Le nouveau site-web sous react utilisant prerender m'a permis de remonter sur les premières page sur le classement google avec les mots clefs: 'ski school courchevel'  
 Excellent connaissance en **CEO** gestion balise, title, description ... keywords in page.
@@ -32,7 +32,7 @@ J'utilise le software **Webstorm** pour le développement.
 
 J'ai aussi des connaissances en react-native car j'ai commencé le développement de l'application. 
 
-Software utilisé pour le développement: 
+#### Software utilisé pour le développement: 
 * Mac OS
 * Webstorm
 * Sourcetree
@@ -44,7 +44,7 @@ Toutes les connaissances ReactJS énoncées ont été apprise en seulement un an
 
 Voici ci-dessous la description des technologies utilisées:
 
-ReactJS/NodeJS
+#### ReactJS/NodeJS
 
 ✓ Babel with babel-runtime , external polyfill for old browsers.  
 ✓ Deep knowledge using "Promise" and async  
